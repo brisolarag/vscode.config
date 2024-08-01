@@ -30,7 +30,11 @@
     ".env.local": "gear",
     ".env.example": "gear"
   },
+
+
   "editor.parameterHints.enabled": false,
+
+
   "editor.renderLineHighlight": "gutter",
   "cSpell.language": "en,pt",
   "typescript.updateImportsOnFileMove.enabled": "always",
@@ -74,72 +78,30 @@
   "gitlens.codeLens.authors.enabled": false,
   "editor.tabSize": 2,
   "security.workspace.trust.untrustedFiles": "newWindow",
-  "files.exclude": {
-    "**\/CVS": true,
-    "**\/.DS_Store": true,
-    "**\/.hg": true,
-    "**\/.svn": true,
-    "**\/.git": true,
-    ".vscode": true
-    // "node_modules": true
-  },
   "workbench.iconTheme": "symbols",
   "update.mode": "default",
+  
   "terminal.integrated.gpuAcceleration": "on",
   "terminal.integrated.defaultProfile.osx": "fish",
+  
+  "symbols.hidesExplorerArrows": false,
+
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "window.commandCenter": false,
-  "git.openRepositoryInParentFolders": "always",
-  "symbols.hidesExplorerArrows": false,
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "console-ninja.featureSet": "Community",
-  "workbench.editor.empty.hint": "hidden",
+  
+  "git.openRepositoryInParentFolders": "always",
   "update.showReleaseNotes": false,
-  "security.promptForLocalFileProtocolHandling": false,
   "workbench.activityBar.location": "hidden",
-  "apc.activityBar": {
-    "position": "bottom",
-    "hideSettings": true,
-    "size": 48,
-    "itemMargin": 8,
-    "itemSize": 32
-  },
   "editor.hideCursorInOverviewRuler": true,
   "editor.minimap.enabled": false,
   "window.titleBarStyle": "native",
-  "apc.electron": {
-    "titleBarStyle": "hiddenInset",
-    "trafficLightPosition": {
-      "x": 11,
-      "y": 10
-    },
-    "opacity": 1,
-    "vibrancy": "dark"
-  },
-  "apc.header": {
-    "height": 36
-  },
-  "apc.listRow": {
-    "height": 24
-  },
-  "apc.font.family": "Inter",
-  "apc.stylesheet": {
-    ".title-label > h2": "display: none",
-    ".editor-actions": "display: none",
-    ".nosidebar .inline-tabs-placeholder": "width: 75px",
-    ".pane-header": "padding: 0 8px",
-    ".pane-body": "padding: 8px",
-    ".split-view-view:first-child .pane-header": "display: none !important;",
-    ".monaco-list-row": "border-radius: 4px;",
-    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
-  },
   "editor.scrollbar.vertical": "hidden",
   "explorer.sortOrder": "foldersNestsFiles",
   "explorer.fileNesting.patterns": {
@@ -151,10 +113,12 @@
 
   },
   "explorer.fileNesting.enabled": true,
-  "workbench.statusBar.visible": false,
-  "editor.tokenColorCustomizations": {
-    "textMateRules": []
-  },
-  "workbench.layoutControl.enabled": false,
-  "terminal.integrated.env.linux": {}
+  "workbench.statusBar.visible": true,
+
+  
+
+
+
+  
+ 
 }
