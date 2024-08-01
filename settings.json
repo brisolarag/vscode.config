@@ -105,7 +105,7 @@
   "editor.scrollbar.vertical": "hidden",
   "explorer.sortOrder": "foldersNestsFiles",
   "explorer.fileNesting.patterns": {
-    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-*, bun.lockb, nest*, package-lock*",
+    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-*, nest*, package-lock*",
     "tailwind.config.*": "tailwind.config*, postcss.config*",
     ".env.local": ".env*",
     ".env": ".env*",
@@ -113,7 +113,7 @@
 
   },
   "explorer.fileNesting.enabled": true,
-  "workbench.statusBar.visible": true,
+  "workbench.statusBar.visible": true
 
   
 
